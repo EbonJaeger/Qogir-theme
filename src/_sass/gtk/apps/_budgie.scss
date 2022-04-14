@@ -379,18 +379,18 @@ window.budgie-popover:not(.csd) {
 
   .budgie-menu-overlay {
     background-color: $bg_color;
-    border-radius: $corner_radius;
+    border-radius: $bt_radius;
     margin-bottom: 6px;
-    padding: 6px;
+    padding: $cont_padding;
   }
 
   .budgie-menu-footer {
     border-top: 1px solid $borders_color;
 
     .image-button {
-      padding: 4px;
-      min-height: 24px;
-      min-width: 24px;
+      padding: $icon_padding;
+      min-height: $medium_size;
+      min-width: $medium_size;
       border-radius: $circular_radius;
     }
 

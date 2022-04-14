@@ -8167,7 +8167,7 @@ window.budgie-popover:not(.csd) > frame.container > border {
 
 .budgie-menu .budgie-menu-overlay {
   background-color: #fafbfc;
-  border-radius: 0;
+  border-radius: 2px;
   margin-bottom: 6px;
   padding: 6px;
 }
@@ -8177,9 +8177,9 @@ window.budgie-popover:not(.csd) > frame.container > border {
 }
 
 .budgie-menu .budgie-menu-footer .image-button {
-  padding: 4px;
-  min-height: 24px;
-  min-width: 24px;
+  padding: 5px;
+  min-height: 28px;
+  min-width: 28px;
   border-radius: 9999px;
 }
 
