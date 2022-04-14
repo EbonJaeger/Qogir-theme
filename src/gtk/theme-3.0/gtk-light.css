@@ -8165,6 +8165,28 @@ window.budgie-popover:not(.csd) > frame.container > border {
   box-shadow: none;
 }
 
+.budgie-menu .budgie-menu-overlay {
+  background-color: #fafbfc;
+  border-radius: 0;
+  margin-bottom: 6px;
+  padding: 6px;
+}
+
+.budgie-menu .budgie-menu-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.budgie-menu .budgie-menu-footer .image-button {
+  padding: 4px;
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: 9999px;
+}
+
+.budgie-menu .budgie-menu-footer .user-icon-button {
+  padding: 4px 8px 4px 6px;
+}
+
 popover.background.user-menu {
   padding: 8px;
 }

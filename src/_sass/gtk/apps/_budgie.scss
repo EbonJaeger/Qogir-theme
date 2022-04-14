@@ -376,6 +376,28 @@ window.budgie-popover:not(.csd) {
 
     &:hover { box-shadow: none; }
   }
+
+  .budgie-menu-overlay {
+    background-color: $bg_color;
+    border-radius: $corner_radius;
+    margin-bottom: 6px;
+    padding: 6px;
+  }
+
+  .budgie-menu-footer {
+    border-top: 1px solid $borders_color;
+
+    .image-button {
+      padding: 4px;
+      min-height: 24px;
+      min-width: 24px;
+      border-radius: $circular_radius;
+    }
+
+    .user-icon-button {
+      padding: 4px 8px 4px 6px;
+    }
+  }
 }
 
 // Menu Button
